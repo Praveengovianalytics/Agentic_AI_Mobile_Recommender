@@ -1,0 +1,22 @@
+[project]
+name = "agentic-ai-mobile-recommender"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Praveen Govindaraj",email = "38414524+Praveengovianalytics@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.118.0,<0.119.0)",
+    "uvicorn (>=0.37.0,<0.38.0)",
+    "openai (>=1.30.0)",
+    "numpy (>=2.3.3,<3.0.0)",
+    "pydantic (>=2.11.10,<3.0.0)",
+    "requests (>=2.32.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
