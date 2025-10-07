@@ -5,6 +5,10 @@ from pydantic import BaseModel
 import numpy as np
 from openai import OpenAI
 
+
+## export OPENAI_API_KEY=your_key
+## uvicorn app:app --reload --port 8000
+
 # ---------- LLM Setup ----------
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
